@@ -1,0 +1,16 @@
+#Don't know why doesn't work the 
+#html5 required in Mozilla and Safary in Codepen :S
+#Here it works correctly http://jsfiddle.net/sj2Em/
+
+jQuery ->
+  $('.input-txt').on 'focus', ->
+    $container = $('.container')
+    $this = $(@)
+    nPosition = $this.data('pos')
+    $container.attr('data-position', nPosition)
+   
+  $('.input-txt').bind 'invalid', ->
+    $('.container').addClass('error')
+    
+  $('.input-txt').bind 'blur', ->
+    $('.container').removeClass('error')

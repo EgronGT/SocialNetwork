@@ -1,0 +1,83 @@
+.fa-stumbleupon {
+    background: #5678f1;
+    color: #222404;
+    border-radius:50%;
+}
+
+
+#inpc {
+    position: absolute;
+    width: 130px;
+    margin: 0px auto;
+    padding: 10px 12px;
+    text-align: center;
+    color: #222404;
+    font-size: 13px;
+    background-color: #f16000;
+    border-radius:  50%;
+
+
+    box-shadow: 1px 7px 15px #f56c6c;
+    -webkit-box-shadow: 1px 7px 15px #f56c6c;
+    -moz-box-shadow: 0px 7px 15px #f56c6c;
+    -o-box-shadow: 0px 7px 15px #f56c6c;
+    -ms-box-shadow: 0px 7px 15px #f56c6c;
+    overflow: hidden;
+}
+
+input[type="file"] {
+    position: absolute;
+
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    opacity: 0;
+    z-index: 1;
+}
+
+#inpc:active {
+    margin-top: 2px;
+    border-bottom-width: 2px;
+    box-shadow: 0px 5px 13px #ea4539;
+    -webkit-box-shadow: 0px 5px 13px #ea4539;
+    -moz-box-shadow: 0px 5px 13px #ea4539;
+    -o-box-shadow: 0px 5px 13px #ea4539;
+    -ms-box-shadow: 0px 5px 13px #ea4539;
+}
+
+
+
+
+
+
+
+
+
+#post{
+    position: relative;
+    width: 130px;
+
+
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    background-color: #4d636f;
+
+
+    overflow: hidden;
+}
+
+
+
+#coverButton{
+    position: relative;
+    width: 130px;
+
+
+    text-align: center;
+    color: #222404;
+    font-size: 15px;
+    background-color: #4d636f;
+
+
+    overflow: hidden;
+}

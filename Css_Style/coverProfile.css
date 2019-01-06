@@ -1,0 +1,48 @@
+
+input[type=button]{
+    background:transparent;
+    border:1px;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #222404;
+    width: 100%;
+    padding: 20px;
+    background: initial;
+}
+
+#inpc_cover {
+    width:72px;
+    height:30px;
+    position: absolute;
+
+    top:60px;
+    right:20px;
+
+    margin: 0px auto;
+    padding: 10px 12px;
+    text-align: center;
+    color: #222404;
+    font-size: 10px;
+    background-color: #0094f1;
+    border-radius:  20%;
+
+}
+.stumbleupon {
+    background: #4d636f;
+    color: #222404;
+    font-zize:13px;
+    border-radius:20%;
+}
